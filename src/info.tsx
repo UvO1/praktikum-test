@@ -41,7 +41,7 @@ function Info(props: IInfo) {
         }
         {(props.active === 3) && 
         <div className={InfoStyle.about}>
-            <p>Ознакомиться с исходниками данного приложения можно <a href="">по ссылке</a></p>
+            <p>Ознакомиться с исходниками данного приложения можно <a href="https://github.com/UvO1/praktikum-test">по ссылке</a></p>
         </div>
         }
 
