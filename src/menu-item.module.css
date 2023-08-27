@@ -1,0 +1,19 @@
+.line{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 26px;
+    color: #b9b7b7;
+    font-family: 'GHEA Grapalat';
+    cursor: pointer;
+    transition: font-size 0.5s;
+}
+
+.line:hover{
+    font-size: 32px;
+}
+.active_line{
+    color: #EEEBE6;;
+}

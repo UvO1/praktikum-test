@@ -1,0 +1,24 @@
+.area{
+    position: relative;
+    height: calc(100vh - 56px - 86px);
+    min-height: 970px;
+    min-width: calc(320px - 48px);
+    padding: 56px 86px 90px 86px;
+    background-color: #694596;
+    bottom: 0;
+}
+@media screen and (max-width: 1280px) {
+    .area{
+        min-height: auto;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .area{
+        min-height: 720px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .area{
+        height: 100%;
+    }
+}

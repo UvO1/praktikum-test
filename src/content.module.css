@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'GHEA Grapalat';
+	src: url('../src/assets/fonts/gheagrapalat.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+}
+.form_area{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 10px;
+}
+
+
+@media screen and (max-width: 860px) {
+    .area{
+        margin-top: 48px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .form_area{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
